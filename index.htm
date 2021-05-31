@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+        crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700%7COpen+Sans&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./elements/main-logo.png">
+    <title>Secret Message</title>
+</head>
+<body>
+    <div> <a href="./index.htm"><img src="./elements/main-logo.png" class="main-logo" alt=""></a></div>
+    <div>
+        <div class="container web-container">
+            <h1 id="web-title">Secret Message</h1>
+        </div>
+        <div id="circle-small"></div>
+        <div class="row">
+            <div class="col s8 offset-s2">
+                <div>
+                    <div id="message-show" class="card-panel hide">
+                        <p></p>
+                        
+                        <a  href="./index.htm">Create your own secret message</a>
+                    </div>
+                </div>
+                <div class="card-panel" id="message-form">
+                    <form action="">
+                        <label>Enter a Secret Message</label>
+                        <input id="message-input" />
+                        <button class="btn">Create Link</button>
+                    </form>
+                </div>
+                <div class="card-panel hide" id="link-form">
+                    <div>
+                        Share this link with a friend
+                        <input id="link-input" />
+                        <a href="./index.htm">Create new secret message</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col s4 foot-start foot-color">
+                        © Secret Message
+                    </div>
+                    <div class="col s4 foot-mid">
+                        <i class="fab fa-linkedin"></i> <a class="foot-color"
+                            href="https://www.linkedin.com/in/saurabhsriv19/">Saurabh
+                            Srivastav</a>
+                    </div>
+                    <div class="col s4 foot-last">
+                        <!-- <img src="./elements/in.png" alt=""> -->
+                        <a class="foot-color" href="https://www.makeinindia.com/">Made In भारत</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
